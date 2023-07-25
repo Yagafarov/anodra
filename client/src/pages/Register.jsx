@@ -6,7 +6,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 const Register = () => {
   return (
     <div classNameName='container'>
-      <form className='form mt-4 '>
+      <div className="form_container">
+      <form className='form'>
         <span className='w-100 d-flex  justify-content-end'>
           <Link to={'/'}>
             <FontAwesomeIcon icon={faSignOutAlt} />
@@ -37,6 +38,7 @@ const Register = () => {
         <button type="submit" class="btn btn-primary w-100">Ro'yxatdan o'tish</button>
         <p className='my-2' style={{ fontSize: '14px' }}>Hisobingiz bormi? <Link to={'/login'}>Tizimga kirish</Link></p>
       </form>
+      </div>
     </div>
   )
 }

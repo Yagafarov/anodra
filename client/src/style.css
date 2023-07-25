@@ -44,7 +44,7 @@
     overflow: hidden;
     border-radius: 5px;
     width: 370px;
-    height: 420px;
+    height: 70vh;
 }
 .image_container img{
     transition: transform 900ms;
@@ -54,4 +54,12 @@
 }
 .image_container:hover img{
     transform:scale(1.1);
+}
+
+/* login */
+.form_container{
+    height: 100vh;
+    z-index: -1;
+    display: flex;
+    align-items: center;
 }
