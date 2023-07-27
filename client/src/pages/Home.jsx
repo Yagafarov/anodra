@@ -52,7 +52,7 @@ const Home = () => {
         </figcaption>
       </figure>
       <div className="container">
-        <div className="row row-cols-1 row-cols-md-3 g-4 py-5 ">
+        <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 py-3 ">
           {posts.map((post) => (
             <div className="col" key={post.id}  aria-hidden="true">
               <div className="card shadow" aria-hidden="true" >
