@@ -57,10 +57,12 @@ const Home = () => {
             <div className="col" key={post.id}  aria-hidden="true">
               <div className="card shadow" aria-hidden="true" >
                 <img src={post.img} className="card-img-top p-3 border-rounded " alt="..." />
-                <div className="card-body placeholder-glow" >
-                  <h5 className="card-title placeholder">{post.title}</h5>
-                  <p className="card-text placeholder">{post.desc}</p>
-                  <Link to={`/post/${post.id}`} className="btn btn-primary disabled">
+                <div className="card-body" >
+                  <Link className='link' to={`/post/${post.id}`}>
+                    <h5 className="card-title">{post.title}</h5>
+                  </Link>
+                  <p className="card-text">{post.desc}</p>
+                  <Link to={`/post/${post.id}`} className="btn btn-primary">
                     Batafsil
                   </Link>
                 </div>

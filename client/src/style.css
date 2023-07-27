@@ -4,7 +4,10 @@
     box-sizing: border-box;
     font-family: "Roboto Slab", serif;
   }
-
+.link{
+    text-decoration: none;
+    color:inherit;
+}
 .btnM{
     text-decoration: none;
     padding:0 20px;
@@ -62,4 +65,84 @@
     z-index: -1;
     display: flex;
     align-items: center;
+}
+
+/* single */
+.single{
+    display: flex;
+    gap:50px;
+}
+.single .content{
+    flex:5;
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+}
+.single .content img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.single .content .user{
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+.single .content .user img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.single .content .user span{
+    font-weight: bold;
+}
+.single .content .edit{
+    display: flex;
+    gap:5px;
+}
+.single .content .cText{
+    text-align: justify;
+}
+.single  .menu{
+    flex:2;
+}
+
+
+/* menu */
+.cmenu{
+    flex:2;
+    gap:25px;
+    border-left: 1px solid #aaa;
+    padding-left: 50px;
+    padding-bottom: 20px;
+}
+.cmenu h1{
+    font-size: 23px;
+}
+.cmenu .post{
+    gap: 10px; 
+}
+.cmenu .post h2{
+    font-size: 20px;  
+}
+.cmenu .post img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* write */
+.write{
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.write .content{
+    flex: 5;
+}
+
+.write .menu{
+    flex: 2;
+    gap:20px
 }
