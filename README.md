@@ -13,5 +13,5 @@ npm run dev
 api derictoriyasi uchun
 
 ```sh
-npm install --production
+npm start
 ```
